@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial;
+}
+
+p {
+    display: block;
+    margin: 0;
+}
+
+.arriba {
+    background-color: blueviolet;
+    height: 40vh;
+}
+
+.abajo {
+    background-color: brown;
+    height: 60vh;
+}
+
+.arriba,
+.abajo {
+    color: rgba(225, 255, 255, 0.2);
+    font-size: 30px;
+    text-align: center;
+}
+
+.abajo p {
+    padding-top: 180px;
+}
+
+.arriba p {
+    padding-top: 100px;
+}
